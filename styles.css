@@ -1,0 +1,86 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 ;
+}
+body {
+  background: #282a36;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+header {
+  padding: 30px;
+  border: 1px solid #333;
+  background: rgba(0, 0, 0, 0.2);
+}
+header div {
+  text-align: center;
+}
+.links a {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 30px;
+  text-decoration: none;
+  color: #fff;
+
+}
+.links a:hover {
+  color: #50fa7b;
+  transition: color 200ms;
+}
+
+#sobre {
+  text-align: center;
+}
+
+#sobre img {
+  border-radius: 50%;
+  margin-top: 32px;
+  border: #50fa7b solid 3px;
+}
+
+#sobre h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#sobre p {
+  font-size: 20px;
+  font-weight: normal ;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-top: 40px;
+  line-height: 34px;
+}
+
+#sobre h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+#sobre ul {
+  list-style: none;
+}
+
+#sobre ul li {
+  font-size: 20px;
+}
+
+#sobre .links {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#sobre .links a {
+  text-decoration: none;
+  border-bottom: #50fa7b 1px solid;
+}
+
